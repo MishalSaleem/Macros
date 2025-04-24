@@ -50,6 +50,40 @@ This 8086 Assembly Language program demonstrates how to use **macros** to modula
 ---
 
 ## 💬 Sample Output
+![image](https://github.com/user-attachments/assets/0f147408-934b-4729-9035-4bcf2d13877d)
 
-![image](https://github.com/user-attachments/assets/c2ab7d52-2266-4512-acd7-f9023431303b)
+
+# 🔠 8086 Assembly: String Length Calculator
+
+This Assembly Language program reads a string from the user and calculates its length (number of characters) using **manual character counting**, then displays the result.
+
+---
+
+## 📋 Features
+
+- Reads a string input from the user (up to 25 characters)
+- Manually counts the number of characters
+- Displays the calculated string length using interrupt-based output
+
+---
+
+## 🧩 Program Structure
+
+### `.data`
+- `st`: Stores the input string (up to 25 characters)
+- `msg1`: Prompt message — "Enter String"
+- `msg2`: Output label — "Length is"
+- `len`: Stores the computed length
+
+### `.code`
+- `Input`: Reads characters until Enter (`carriage return`, ASCII 13) is pressed
+- `Length`: Converts the counter into a string and prints it using stack-based digit printing logic
+
+---
+
+## 💬 Sample Output
+![image](https://github.com/user-attachments/assets/8096c7a4-293b-4374-b9b1-24c16d9bb485)
+
+
+
 
